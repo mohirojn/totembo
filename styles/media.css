@@ -1,0 +1,174 @@
+@media (max-width: 1400px){
+    
+}
+@media (max-width: 1200px){
+    .main__watch-info{
+        max-width: 370px;
+        width: 100%;
+    }
+    .footer__adress{
+        max-width: 300px;
+    }
+    .main__additional{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    }
+
+@media (max-width: 992px){
+.header__nav-list{
+    margin-top: 25px;
+    margin-left: 2px;
+}
+.header__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+    gap: 25px;
+}
+.header__nav-logo{
+    display: block;
+    margin: 0 auto;
+}
+.header__nav-left{
+    display: flex;
+    flex-direction: column;
+}
+.header__nav-right{
+    margin: 0 auto;
+}
+.main__watch-info{
+    max-width: 300px;
+    width: 100%;
+}
+
+.header__content-right, .header__content-left{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+  }
+  
+.footer{
+    padding: 30px;
+}
+.footer__numbers{
+    display: flex;
+    flex-direction: column;
+}
+    }
+
+@media (max-width: 768px){
+  .header__content{
+    display: flex;
+    flex-direction: column;
+  }  
+
+  .header__content-right, .header__content-left{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+  }
+  
+  .main__watch-info{
+    max-width: 350px;
+    width: 100%;
+}
+}
+
+@media (max-width: 576px){
+    
+    .header__content-right{
+        display: flex;
+        flex-direction: column;
+        padding:25px;
+    }
+    
+    .main__watch-info{
+        margin: 0 auto;
+     }
+     .header__nav-list{
+       display: flex;
+       gap: 15px;
+       flex-direction: column;  
+     }
+     
+     .header__nav-right{
+        margin: 0 auto;
+     }
+     
+     .main__watches{
+     padding: 20px;
+     display: flex; 
+     gap: 25px;
+}
+
+.main__additional-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__additional-content img{
+    max-width: 450px;
+    width: 100%;
+}
+
+.main__add-title{
+    max-width: 420px;
+    margin-top: 65px;
+}
+.main__add-text{
+    max-width: 420px;
+}
+
+.footer__blocks{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__block-3{
+max-width: 200px;
+margin-left: 28px;
+}
+
+.main__add-icon{
+position: absolute;
+bottom: 10px;
+}
+
+.footer__block-2{
+    margin-left: -50px;
+}
+}
+@media (max-width: 480px){
+    .header__content-watch{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+    .header__content-watch
+    img{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    
+    .header__content-desc{
+        display: flex;
+        text-align: center;
+    }
+    
+    .main__watch-info img{
+        margin-top: 15px;
+    }
+    
+    .main__watch-info{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
